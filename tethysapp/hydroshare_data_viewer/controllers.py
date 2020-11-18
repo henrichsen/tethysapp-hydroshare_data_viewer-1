@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .app import HydroshareDataViewer as app
+from app import HydroshareDataViewer as app
 
 
 def home(request):

@@ -3,8 +3,8 @@ import json
 import time
 from django.http import JsonResponse
 from lxml import etree
-from .app import HydroshareDataViewer as app
-from .utilities import get_layers, get_field_stats
+from app import HydroshareDataViewer as app
+from utilities import get_layers, get_field_stats
 
 geoserver_url = app.get_custom_setting("geoserver_url")
 hydroserver_url = app.get_custom_setting("hydroserver_url")

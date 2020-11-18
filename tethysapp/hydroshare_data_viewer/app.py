@@ -2,6 +2,7 @@ from tethys_sdk.base import TethysAppBase, url_map_maker
 from tethys_sdk.app_settings import CustomSetting
 
 
+
 class HydroshareDataViewer(TethysAppBase):
     """
     Tethys app class for HydroShare Data Viewer.
@@ -14,7 +15,7 @@ class HydroshareDataViewer(TethysAppBase):
     root_url = 'hydroshare-data-viewer'
     color = '#008080'
     description = 'This app is designed to run on Tethys Platform and helps support CUAHSI\'s HydroShare project. Its purpose is to allow HydroShare users to quickly preview hydrologic geospatial and time series content stored in HydroShare resources.'
-    tags = ''
+    tags = 'GIS viewer'
     enable_feedback = False
     feedback_emails = []
 

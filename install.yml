@@ -5,11 +5,10 @@ name: hydroshare_data_viewer
 
 requirements:
   # Putting in a skip true param will skip the entire section. Ignoring the option will assume it be set to False
-  skip: true
+  skip: false
   conda:
     channels:
     packages:
-      - lxml
   pip:
 
 post:
